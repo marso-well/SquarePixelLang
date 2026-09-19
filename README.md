@@ -1,3 +1,5 @@
+# SquarePixelLanguage
+
 This is my first C# project.
 
 ![SquarePixel Icon](assets/SqPi_Icon.png)
