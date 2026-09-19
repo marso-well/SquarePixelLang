@@ -1,4 +1,6 @@
-![[SqPi_Icon.png|151]]
+This is my first C# project
+
+![[assets/SqPi_Icon.png|151]]
 SquarePixelLang is a small esoteric scripting language that runs on a fixed 16x16 pixel grid. Every script manipulates a single **pointer** that addresses one of 256 pixels, and every pixel holds an **index** (a value from `00` to `5F` in hex) that maps to a color **and** character.
 
 This document covers everything you need to write and run SqPiLang scripts.
@@ -311,4 +313,4 @@ Immediately exits the program. Takes no arguments.
 - Palette indices run from `00` to `5F` (0-95 decimal), each mapping to one of 96 colors (a 32-color set repeated three times).
 - The same indices map to a 96-character table.
 
-![[SqPiLang_Palette.png]]
+![[assets/SqPiLang_Palette.png]]
